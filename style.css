@@ -1,0 +1,180 @@
+/* Nav Bar*/
+nav{
+  margin: 20px 0px;
+}
+
+#navLogo{
+  font-size: 2.0em;
+  font-weight: 700;
+  padding-right: 15px;
+}
+
+nav a{
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+/* Carousel Showcase */
+#showcaseCarousel{
+  position: relative;
+}
+
+#showCaseHeading h1{
+  position: absolute;
+  top: 0;
+  padding-top: 14%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 4.7em;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+               0px 8px 13px rgba(0, 0, 0, 0.1),
+               0px 18px 23px rgba(0, 0, 0, 0.1)
+}
+
+.carousel-item img{
+  height: 550px;
+}
+
+#showcaseCarousel img{
+  opacity: .7
+}
+
+/* About Blurb */
+#aboutBlurb p{
+  font-size: 1.6em;
+  font-weight: 300;
+  width: 55%;
+  text-align: center;
+  margin: 0px auto;
+  padding: 5%;
+}
+
+hr{
+  width: 60%;
+}
+
+/* Main Carousel */
+#mainCarousel{
+  border: 2px solid black;
+  width: 25%;
+  height: 500px;
+  margin: 75px auto;
+  text-align: center;
+}
+
+/* Home Cards */
+#imgCards .container{
+  margin-bottom: 50px;
+}
+.card-body a{
+  border: 2px solid black;
+}
+
+.card-body a:hover{
+  background-color: black;
+  color: #fff;
+  outline: none;
+}
+
+/* Team Cards */
+#team h1{
+  text-align: center;
+  margin: 50px;
+}
+
+#team .container{
+  margin-bottom: 50px;
+}
+
+#team{
+}
+
+/* Contact Us */
+#contact .container{
+  /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+  width: 40%;
+  margin: 75px auto;
+}
+
+#contact h1{
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.contactInfo{
+  width: 50%;
+  margin: 0px auto;
+}
+
+.contactInfo p{
+  padding: 15px 0px;
+  font-size: 1.2em;
+}
+
+.contactInfo h2{
+  font-size: 1.5em;
+}
+
+.contactInfo span{
+  padding-right: 15px;
+}
+
+/* Map */
+
+/* Footer */
+#myFooter {
+    background-color: #3a3f46;
+    color: white;
+}
+
+#myFooter .info{
+    text-align: justify;
+    color: #afb0b1;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter .logo{
+    margin-top: 10px;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#copyright{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 15px 0px;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+}
