@@ -1,0 +1,148 @@
+hr .style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+/* Nav Bar*/
+nav{
+  margin: 20px 0px;
+}
+
+#navLogo{
+  font-size: 2.0em;
+  font-weight: 700;
+  padding-right: 15px;
+}
+
+nav a{
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+/* Carousel Showcase */
+#showcaseCarousel{
+  position: relative;
+}
+
+#showCaseHeading h1{
+  position: absolute;
+  top: 0;
+  padding-top: 14%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 4.5em;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+               0px 8px 13px rgba(0, 0, 0, 0.1),
+               0px 18px 23px rgba(0, 0, 0, 0.1)
+}
+
+.carousel-item img{
+  height: 800px;
+}
+
+#showcaseCarousel img{
+  opacity: .8;
+}
+
+/* About Section */
+#aboutBlurb{
+  font-size: 1.6em;
+  font-weight: 300;
+  width: 55%;
+  text-align: center;
+  margin: 0px auto;
+  padding: 5%;
+}
+
+#aboutBlurb h1 {
+  margin: 10px 17px;
+  text-align: left;
+}
+
+hr{
+  width: 60%;
+}
+
+/* Information */
+#information{
+  margin: 3% 0px;
+}
+
+#information h1{
+  font-size: 2.0em;
+}
+
+#information h2{
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+#amenitiesInfo p{
+  width: 65%;
+}
+
+#gallery{
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+#gallery img{
+  width: 500px;
+  height: 350px;
+  padding: 0px;
+  margin: 10px;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Footer */
+#myFooter {
+    background-color: #3a3f46;
+    color: white;
+}
+
+#myFooter .info{
+    text-align: justify;
+    color: #afb0b1;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter .logo{
+    margin-top: 10px;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#copyright{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 15px 0px;
+}

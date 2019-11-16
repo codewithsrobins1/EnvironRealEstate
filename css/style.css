@@ -1,3 +1,9 @@
+hr .style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 /* Nav Bar*/
 nav{
   margin: 20px 0px;
@@ -22,7 +28,7 @@ nav a{
 #showCaseHeading h1{
   position: absolute;
   top: 0;
-  padding-top: 14%;
+  padding-top: 13%;
   width: 100%;
   text-align: center;
   color: #fff;
@@ -34,7 +40,7 @@ nav a{
 }
 
 .carousel-item img{
-  height: 550px;
+  height: 800px;
 }
 
 #showcaseCarousel img{
@@ -43,9 +49,9 @@ nav a{
 
 /* About Blurb */
 #aboutBlurb p{
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: 300;
-  width: 55%;
+  width: 45%;
   text-align: center;
   margin: 0px auto;
   padding: 5%;
@@ -57,17 +63,24 @@ hr{
 
 /* Main Carousel */
 #mainCarousel{
-  border: 2px solid black;
-  width: 25%;
-  height: 500px;
-  margin: 75px auto;
+  margin: 4% auto;
   text-align: center;
 }
 
+#mainCarousel img{
+  width: 25%;
+  height: 500px;
+}
+
 /* Home Cards */
+#imgcards{
+  margin-bottom: 4% 0px;
+}
+
 #imgCards .container{
   margin-bottom: 50px;
 }
+
 .card-body a{
   border: 2px solid black;
 }
@@ -76,6 +89,10 @@ hr{
   background-color: black;
   color: #fff;
   outline: none;
+}
+
+#imgCards img{
+  cursor: pointer;
 }
 
 /* Team Cards */
@@ -89,12 +106,14 @@ hr{
 }
 
 #team{
+  margin: 4% 0px;
 }
 
 /* Contact Us */
 #contact .container{
-  /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
-  width: 40%;
+
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  width: 30%;
   margin: 75px auto;
 }
 
@@ -121,6 +140,13 @@ hr{
   padding-right: 15px;
 }
 
+#contactUsButton{
+  margin: 5% 0px;
+}
+
+#contact button{
+  margin-left: 27%;
+}
 /* Map */
 
 /* Footer */
@@ -167,14 +193,4 @@ hr{
   font-size: 1.2em;
   font-weight: 600;
   padding: 15px 0px;
-}
-
-@media screen and (max-width: 767px) {
-    #myFooter {
-        text-align: center;
-    }
-
-    #myFooter .info{
-        text-align: center;
-    }
 }

@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Contemporary Style Homes</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/homeStyles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
   </head>
 
   <body>
+    <!-- Nav Bar -->
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a id="navLogo" class="navbar-brand" href="home.html">Environ</a>
@@ -22,7 +23,7 @@
               <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a> <!-- Figure Out What to Link this to -->
+              <a class="nav-link" href="#aboutBlurb">About</a> <!-- Figure Out What to Link this to -->
             </li>
 
             <li class="nav-item dropdown">
@@ -38,14 +39,14 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="home.html#contact">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
 
-<!-- Showcase -->
+<!-- Carousel Showcase -->
   <div id="showcaseCarousel">
     <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
@@ -74,40 +75,100 @@
     </div>
   </div>
 
-  <!-- Footer -->
-    <footer id="myFooter">
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-3">
-                      <h5>Menu</h5>
-                      <ul>
-                          <li><a href="#">About Us</a></li>
-                          <li><a href="#">Meet the Team</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-3">
-                      <h5>Home Styles</h5>
-                      <ul>
-                          <li><a href="#">Modern</a></li>
-                          <li><a href="#">Contemporary</a></li>
-                          <li><a href="#">Mediterranean</a></li>
-                          <li><a href="#">Luxury Apartment</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-3">
-                      <h5>Contact</h5>
-                      <ul>
-                          <li><a href="#">789 Grand St., Suite 100, Los Angeles, CA 90201</a></li>
-                          <li><a href="#">310-232-4348</a></li>
-                          <li><a href="#">contact@environ.com</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-3 info">
-                      <h5>Information</h5>
-                      <p> Lorem ipsum dolor amet, consectetur adipiscing elit. Etiam consectetur aliquet aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
-                  </div>
-              </div>
+<!-- About Section -->
+  <div id="aboutBlurb">
+    <h1>Your perfect home awaits you</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+  </div>
+
+<hr class="style-two">
+
+<!-- Information Section -->
+  <div id="information">
+    <div class="container">
+        <div class="row">
+          <div id="amenitiesInfo" class="col">
+            <h1>Amennities</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
+          <div class="col">
+            <h1>Prices & Rates</h1>
+              <h2>Beverly Hills</h2>
+                <p>3 Bedroom: $2mil - $4mil</p>
+                <p>4 Bedroom: $5mil - $7mil</p>
+                <p>5+ Bedroom: $8mil - $10mil+</p>
+              <h2>Santa Monica</h2>
+                <p>3 Bedroom: $1mil - $2mil</p>
+                <p>4 Bedroom: $3mil - $5mil</p>
+                <p>5+ Bedroom: $8mil - $10mil+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<hr class="style-two">
+
+<!-- Gallery -->
+<div id="gallery">
+    <div class="container">
+      <h1>Gallery</h1>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="/img/contempGal1.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <img src="/img/contempGal2.jpg" alt="">
+        </div>
+          <div class="w-100"></div>
+        <div class="col">
+          <img src="/img/contempGal3.jpg" alt="">
+        </div>
+        <div class="col">
+          <img src="/img/contempGal4.jpg" alt="">
+        </div>
+      </div>
+    </div>
+</div>
+
+  <!-- Footer -->
+  <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Menu</h5>
+                    <ul>
+                        <li><a href="home.html#aboutBlurb">About Us</a></li>
+                        <li><a href="home.html#team">Meet the Team</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Home Styles</h5>
+                    <ul>
+                        <li><a href="modern.html">Modern</a></li>
+                        <li><a href="contemporary.html">Contemporary</a></li>
+                        <li><a href="med.html">Mediterranean</a></li>
+                        <li><a href="luxury.html">Luxury Apartment</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><a href="#">789 Grand St., Suite 100, Los Angeles, CA 90201</a></li>
+                        <li><a href="#">310-232-4348</a></li>
+                        <li><a href="#">contact@environ.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 info">
+                    <h5>Information</h5>
+                    <p> Lorem ipsum dolor amet, consectetur adipiscing elit. Etiam consectetur aliquet aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+                </div>
+            </div>
+        </div>
+
+        <p id="copyright">&copy; 2019 Environ Real Estate | Created by Sean Robinson</p>
+  </footer>
 
           <p id="copyright">&copy; 2019 Environ Real Estate | Created by Sean Robinson</p>
     </footer>

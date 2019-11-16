@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Environ Real Estate | Home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
   </head>
@@ -22,7 +22,7 @@
               <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#aboutBlurb">About</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -38,7 +38,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -79,8 +79,12 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
   </div>
 
+<hr class="style-two">
+
 <!-- Showcase Carousel -->
-  <div id="mainCarousel"></div>
+  <div id="mainCarousel">
+    <img id="imgHover" src="/img/modern.jpg" alt="">
+  </div>
 
 
 <!-- Cards -->
@@ -88,7 +92,7 @@
   <div class="container">
     <div class="row">
       <div class="card col-md-3" style="width: 18rem;">
-        <img src="/img/modern.jpg" class="card-img-top" alt="...">
+        <img src="/img/modern.jpg" id="imgModern" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Modern</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -97,7 +101,7 @@
       </div>
 
       <div class="card col-md-3" style="width: 18rem;">
-        <img src="/img/contemporary.jpg" class="card-img-top" alt="...">
+        <img src="/img/contemporary.jpg" id="imgContemp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Contemporary</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -106,7 +110,7 @@
       </div>
 
       <div class="card col-md-3" style="width: 18rem;">
-        <img src="/img/mediterranean.jpg" class="card-img-top" alt="...">
+        <img src="/img/medgal2.jpg" id="imgMed" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Mediterranean</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -115,7 +119,7 @@
       </div>
 
       <div class="card col-md-3" style="width: 18rem;">
-        <img src="/img/luxuryApt.jpg" class="card-img-top" alt="...">
+        <img src="/img/luxuryApt.jpg" id="imgLux" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Luxury Apartment</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -162,6 +166,7 @@
 </div>
 
 
+
 <!-- Contact Us  -->
 <div id="contact">
   <div class="container">
@@ -181,7 +186,7 @@
             <p><span><i class="fas fa-envelope fa-lg"></i></span>contact@environ.com</p>
           </div>
 
-          <button id="contactUsButton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          <button id="contactUsButton" type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
             Message the Team
           </button>
 
@@ -221,7 +226,7 @@
                 </form>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Send</button>
+                <button type="button" class="btn btn-secondary">Send</button>
               </div>
             </div>
           </div>
@@ -229,9 +234,6 @@
       </div>
     </div>
   </div>
-</div>
-
-
 
 
 <!-- Map -->
@@ -246,17 +248,17 @@
                 <div class="col-sm-3">
                     <h5>Menu</h5>
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Meet the Team</a></li>
+                        <li><a href="#aboutBlurb">About Us</a></li>
+                        <li><a href="#team">Meet the Team</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
                     <h5>Home Styles</h5>
                     <ul>
-                        <li><a href="#">Modern</a></li>
-                        <li><a href="#">Contemporary</a></li>
-                        <li><a href="#">Mediterranean</a></li>
-                        <li><a href="#">Luxury Apartment</a></li>
+                        <li><a href="modern.html">Modern</a></li>
+                        <li><a href="contemporary.html">Contemporary</a></li>
+                        <li><a href="med.html">Mediterranean</a></li>
+                        <li><a href="luxury.html">Luxury Apartment</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
@@ -281,5 +283,6 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="script.js" type="text/javascript"></script>
   </body>
 </html>
