@@ -112,7 +112,7 @@ hr{
 /* Contact Us */
 #contact .container{
 
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   width: 30%;
   margin: 75px auto;
 }

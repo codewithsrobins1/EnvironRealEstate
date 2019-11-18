@@ -1,39 +1,59 @@
 // Display Home When Hovering Over Card Photo
 // //onmouseover
 // function mouseOver(){
-//   var image = document.getElementById("imgHover");
+//   //List the Image IDs that will Change the Item when Hovered
+//   var mod = document.getElementById("imgModern");
+//   var contemp = document.getElementById("imgContemp");
+//   var med = document.getElementById("imgMed");
+//   var lux = document.getElementById("imgLux");
 //
-//   image.src = "/img/modPage1.jpg"
+//   //If Hovered Over Modern, Change Image
+//   if (mod) {
+//     document.getElementById("imgHover").src = "/img/modernPage1.jpg"
+//   }
+//   //If Hovered Over Contemporary, Change Image
+//   if (contemp) {
+//     document.getElementById("imgHover").src = "/img/contempPage1.jpg"
+//   }
+//   //If Hovered Over Mediterranean, Change Image
+//   if (med) {
+//     document.getElementById("imgHover").src = "/img/medPage1.jpg"
+//   }
+//   //If Hovered Over Luxury, Change Image
+//   if (lux) {
+//     document.getElementById("imgHover").src = "/img/luxPage1.jpg"
+//   }
 // };
 //
 // //onmouseout
 // function noMouseOver(){
-//   var image = document.getElementById("imgHover");
-//
-//   image.src = "/img/modern.jpg"
+//   document.getElementById("imgHover").src = "/img/modern.jpg"
 // };
-//
-// document.getElementById("imgModern").addEventListener("mouseenter", mouseOver());
-// document.getElementById("imgModern").addEventListener("mouseleave", noMouseOver());
 
 
-//onmouseover
+//THIS IS NOT CLEAN**********
+//If Hovered Over Modern, Change Image
 function mouseOver(){
-  //List the Image ID that will Change the Item when Hovered
-  var hoverItems = []
-
-  //If Hovered Over Modern, Change Image
   document.getElementById("imgHover").src = "/img/modernPage1.jpg"
+};
 
-  //If Hovered Over Contemporary, Change Image
+//If Hovered Over Contemporary, Change Image
+function mouseOver2(){
 
-  //If Hovered Over Mediterranean, Change Image
+  document.getElementById("imgHover").src = "/img/contempPage1.jpg"
+};
 
-  //If Hovered Over Luxury, Change Image
+//If Hovered Over Mediterranean, Change Image
+function mouseOver3(){
+  document.getElementById("imgHover").src = "/img/medPage1.jpg"
+};
 
+//If Hovered Over Luxury, Change Image
+function mouseOver4(){
+  document.getElementById("imgHover").src = "/img/luxuryPage1.jpg"
 };
 
 //onmouseout
 function noMouseOver(){
-  document.getElementById("imgHover").src = "/img/modern.jpg"
+  document.getElementById("imgHover").src = "/img/modernPage2.jpg"
 };
