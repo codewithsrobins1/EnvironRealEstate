@@ -1,0 +1,99 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) {
+  /* Carousel Showcase */
+  #showCaseHeading h1{
+    position: absolute;
+    top: 0;
+    padding-top: 25%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.5em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1)
+  }
+
+  .carousel-item img{
+    height: 600px;
+  }
+
+  /* About Blurb */
+  #aboutBlurb p{
+    font-size: 1.5em;
+    font-weight: 300;
+    width: 70%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 5%;
+  }
+
+  hr{
+    width: 60%;
+  }
+
+  /* Main Carousel */
+  #mainCarousel{
+    margin: 4% auto;
+    text-align: center;
+  }
+
+  #mainCarousel img{
+    width: 35%;
+    height: 300px;
+  }
+
+  /* Contact Us */
+  #contact .container{
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 30%;
+    margin: 75px auto;
+  }
+
+  #contact h1{
+    text-align: center;
+    padding: 25px 0px;
+  }
+
+  .contactInfo{
+    width: 50%;
+    margin: 0px auto;
+  }
+
+  .contactInfo p{
+    padding: 15px 0px;
+    font-size: 1.2em;
+  }
+
+  .contactInfo h2{
+    font-size: 1.5em;
+  }
+
+  .contactInfo span{
+    padding-right: 15px;
+  }
+
+  #contactUsButton{
+    margin: 5% 0px;
+  }
+
+  #contact button{
+    margin-left: 27%;
+  }
+
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
