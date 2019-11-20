@@ -1,0 +1,375 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) {
+  /* Carousel Showcase */
+  #showCaseHeading h1{
+    position: absolute;
+    top: 0;
+    padding-top: 25%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.5em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1)
+  }
+
+  .carousel-item img{
+    height: 600px;
+  }
+
+  /* About Blurb */
+  #aboutBlurb p{
+    font-size: 2.0em;
+    font-weight: 300;
+    width: 70%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 5%;
+  }
+
+  hr{
+    width: 60%;
+  }
+
+  /* Main Carousel */
+  #mainCarousel{
+    margin: 4% auto;
+    text-align: center;
+  }
+
+  #mainCarousel img{
+    width: 35%;
+    height: 200px;
+  }
+
+  /* Home Cards */
+  #imgCards{
+    margin-bottom: 4% 0px;
+  }
+
+  #imgCards h5{
+    font-size: 2.0em;
+  }
+
+  #imgCards p{
+    font-size: 2em;
+  }
+
+  #imgCards .container{
+    margin-bottom: 50px;
+  }
+
+  .card-body a{
+    border: 2px solid black;
+  }
+
+  .card-body a:hover{
+    background-color: black;
+    color: #fff;
+    outline: none;
+  }
+
+  #imgCards img{
+    cursor: pointer;
+  }
+
+  /* Contact Us */
+  #contact .container{
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 75%;
+    margin: 75px auto;
+  }
+
+  #contact h1{
+    text-align: center;
+    padding: 25px 0px;
+  }
+
+  .contactInfo{
+    width: 50%;
+    margin: 0px auto;
+  }
+
+  .contactInfo p{
+    padding: 15px 0px;
+    font-size: 1.2em;
+  }
+
+  .contactInfo h2{
+    font-size: 1.5em;
+  }
+
+  .contactInfo span{
+    padding-right: 15px;
+  }
+
+  #contactUsButton{
+    margin: 5% 0px;
+  }
+
+  #contact button{
+    margin-left: 27%;
+  }
+
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* Main Carousel */
+  #mainCarousel{
+    margin: 4% auto;
+    text-align: center;
+  }
+
+  #mainCarousel img{
+    width: 40%;
+    height: 350px;
+  }
+
+  /* Home Cards */
+  #imgCards{
+    margin-bottom: 4% 0px;
+  }
+
+  #imgCards h5{
+    font-size: 1.0em;
+  }
+
+  #imgCards p{
+    font-size: .9em;
+  }
+
+  #imgCards .container{
+    margin-bottom: 50px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* About Blurb */
+  #aboutBlurb p{
+    font-size: 1.6em;
+    font-weight: 300;
+    width: 70%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 5%;
+  }
+
+  hr{
+    width: 60%;
+  }
+
+  #team img{
+    width: 60%;
+    height: 250px;
+    margin: 0px auto;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Nav Bar*/
+  nav{
+    margin: 20px 0px;
+  }
+
+  #navLogo{
+    font-size: 2.0em;
+    font-weight: 700;
+    padding-right: 15px;
+  }
+
+  nav a{
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+
+  /* Carousel Showcase */
+  #showcaseCarousel{
+    position: relative;
+  }
+
+  #showCaseHeading h1{
+    position: absolute;
+    top: 0;
+    padding-top: 20%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 4.0em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1)
+  }
+
+  .carousel-item img{
+    height: 600px;
+  }
+
+  #showcaseCarousel img{
+    opacity: .7
+  }
+
+  /* About Blurb */
+  #aboutBlurb p{
+    font-size: 1.7em;
+    font-weight: 300;
+    width: 70%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 5%;
+  }
+
+  hr{
+    width: 60%;
+  }
+
+  /* Main Carousel */
+  #mainCarousel{
+    margin: 4% auto;
+    text-align: center;
+  }
+
+  #mainCarousel img{
+    width: 30%;
+    height: 400px;
+  }
+
+  /* Home Cards */
+  #imgcards{
+    margin-bottom: 4% 0px;
+  }
+
+  #imgCards .container{
+    margin-bottom: 50px;
+  }
+
+  .card-body a{
+    border: 2px solid black;
+  }
+
+  .card-body a:hover{
+    background-color: black;
+    color: #fff;
+    outline: none;
+  }
+
+  #imgCards img{
+    cursor: pointer;
+  }
+
+  /* Team Cards */
+  #team img{
+    width: 100%;
+    height: 400px;
+    margin: 0px auto;
+  }
+}
+
+  #team h1{
+    text-align: center;
+    margin: 50px;
+  }
+
+  #team .container{
+    margin-bottom: 50px;
+  }
+
+  #team{
+    margin: 4% 0px;
+  }
+
+  /* Contact Us */
+  #contact .container{
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 70%;
+    margin: 75px auto;
+  }
+
+  #contact h1{
+    text-align: center;
+    padding: 25px 0px;
+  }
+
+  .contactInfo{
+    width: 50%;
+    margin: 0px auto;
+  }
+
+  .contactInfo p{
+    padding: 15px 0px;
+    font-size: 1.2em;
+  }
+
+  .contactInfo h2{
+    font-size: 1.5em;
+  }
+
+  .contactInfo span{
+    padding-right: 15px;
+  }
+
+  #contactUsButton{
+    margin: 5% 0px;
+  }
+
+  #contact button{
+    margin-left: 27%;
+  }
+  /* Map */
+
+  /* Footer */
+  #myFooter {
+      background-color: #3a3f46;
+      color: white;
+  }
+
+  #myFooter .info{
+      text-align: justify;
+      color: #afb0b1;
+  }
+
+  #myFooter ul {
+      list-style-type: none;
+      padding-left: 0;
+      line-height: 1.7;
+  }
+
+  #myFooter h5 {
+      font-size: 18px;
+      color: white;
+      font-weight: bold;
+      margin-top: 30px;
+  }
+
+  #myFooter .logo{
+      margin-top: 10px;
+  }
+
+  #myFooter a {
+      color: #d2d1d1;
+      text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus {
+      text-decoration: none;
+      color: white;
+  }
+
+  #copyright{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 15px 0px;
+  }
+}
