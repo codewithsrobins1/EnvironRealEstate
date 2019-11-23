@@ -112,19 +112,39 @@
   #showCaseHeading h1{
     position: absolute;
     top: 0;
-    padding-top: 17%;
+    padding-top: 13%;
     width: 100%;
     text-align: center;
     color: #fff;
     font-weight: 500;
-    font-size: 4.5em;
+    font-size: 4.0em;
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
                  0px 8px 13px rgba(0, 0, 0, 0.1),
                  0px 18px 23px rgba(0, 0, 0, 0.1)
   }
 
   .carousel-item img{
-    height: 600px;
+    height: 500px;
+  }
+
+  /* About Section */
+  #aboutBlurb{
+    font-weight: 300;
+    width: 60%;
+    text-align: left;
+    margin: 0px auto;
+    padding: 3%;
+  }
+
+  #aboutBlurb h1 {
+    text-align: left;
+    font-size: 1.2em;
+    margin-left: 0px;
+  }
+
+  #aboutBlurb p{
+    font-size: .8em;
+    padding-top: 10px;
   }
 
   /* Gallery*/
