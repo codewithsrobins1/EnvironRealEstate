@@ -1,0 +1,268 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px){
+  /* Carousel Showcase */
+  #showcaseCarousel{
+    position: relative;
+  }
+
+  #showCaseHeading h1{
+    position: absolute;
+    top: 0;
+    padding-top: 25%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 4.5em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1)
+  }
+
+  .carousel-item img{
+    height: 600px;
+  }
+
+  #showcaseCarousel img{
+    opacity: .8;
+  }
+
+  /* About Section */
+  #aboutBlurb{
+    font-size: 1.6em;
+    font-weight: 300;
+    width: 80%;
+    text-align: left;
+    margin: 0px auto;
+    padding: 5%;
+  }
+
+  #aboutBlurb h1 {
+    margin: 10px;
+    text-align: left;
+  }
+
+  /* Information */
+  #information{
+    margin: 3% 0px;
+  }
+
+  #information h1{
+    font-size: 2.5em;
+  }
+
+  #information h2{
+    font-size: 1.6em;
+    font-style: italic;
+  }
+
+  #amenitiesInfo p{
+    width: 90%;
+    font-size: 2em;
+  }
+
+  #information .col p{
+    font-size: 1.3em;
+  }
+
+  /* Gallery */
+  #gallery{
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+
+  #gallery h1{
+    text-align: center;
+    font-size: 2.5em;
+  }
+
+  #gallery .col-lg-6, #gallery .col{
+    text-align: center;
+  }
+
+  #gallery img{
+    width: 500px;
+    height: 350px;
+    margin: 10px;
+  }
+
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px){
+  /* Gallery*/
+  #gallery img{
+    width: 600px;
+    height: 450px;
+    margin: 10px;
+  }
+}
+
+/* Large devices (Laptops, 1366px and up) */
+@media (min-width: 1366px){
+  /* Carousel Showcase */
+  #showcaseCarousel{
+    position: relative;
+  }
+
+  #showCaseHeading h1{
+    position: absolute;
+    top: 0;
+    padding-top: 17%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 4.5em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1)
+  }
+
+  .carousel-item img{
+    height: 600px;
+  }
+
+  /* Gallery*/
+  #gallery h1{
+    text-align: center;
+    font-size: 2.5em;
+    padding-bottom: 2%;
+  }
+
+  #gallery img{
+    width: 500px;
+    height: 350px;
+    margin: 10px;
+  }
+}
+
+/* Extra large devices (large desktop monitors, 1980px and up) */
+@media (min-width: 1920px){
+  /* Carousel Showcase */
+  #showcaseCarousel{
+    position: relative;
+  }
+
+  #showCaseHeading h1{
+    position: absolute;
+    top: 0;
+    padding-top: 11%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 3.8em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1)
+  }
+
+  .carousel-item img{
+    height: 500px;
+  }
+
+  /* About Section */
+  #aboutBlurb{
+    font-weight: 300;
+    width: 50%;
+    text-align: left;
+    margin: 0px auto;
+    padding: 5%;
+  }
+
+  #aboutBlurb h1 {
+    margin-left: 0px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+  }
+
+  #aboutBlurb p {
+    font-size: .8em;
+    padding-top: 10px;
+  }
+
+  /* Information */
+  #information h1{
+    font-size: 1.8em;
+  }
+
+  #information h2{
+    font-size: 1.2em;
+    font-style: italic;
+  }
+
+  #information .row p{
+    font-size: 1.1em;
+  }
+
+  #amenitiesInfo p{
+    width: 65%;
+  }
+
+  #gallery{
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+  #gallery img{
+    width: 500px;
+    height: 350px;
+    padding: 0px;
+    margin: 10px;
+  }
+
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+/* Extra Extra large devices (large desktop monitors, 2440px and up) */
+@media (min-width: 2440px) {
+  /* Carousel Showcase */
+  #showcaseCarousel{
+    position: relative;
+  }
+
+  #showCaseHeading h1{
+    position: absolute;
+    top: 0;
+    padding-top: 13%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 4.5em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1)
+  }
+
+  .carousel-item img{
+    height: 750px;
+  }
+
+  /* About Section */
+  #aboutBlurb{
+    font-weight: 300;
+    width: 50%;
+    text-align: left;
+    margin: 0px auto;
+    padding: 5%;
+  }
+
+  #aboutBlurb h1 {
+    margin-left: 0px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+  }
+
+  #aboutBlurb p {
+    font-size: 1.0em;
+    padding-top: 10px;
+  }
+}
