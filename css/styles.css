@@ -1,0 +1,418 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* HR Section Breaks */
+.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width: 60%;
+    margin: 4em auto;
+}
+
+/* Nav Bar*/
+#navLogo{
+  font-size: 2.0em;
+  font-weight: 700;
+}
+
+nav a{
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+/* Carousel Showcase */
+#showcaseCarousel{
+  position: relative;
+}
+
+#showCaseHeading h1{
+  position: absolute;
+  top: 0%;
+  padding-top: 25%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 4.5em;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+               0px 8px 13px rgba(0, 0, 0, 0.1),
+               0px 18px 23px rgba(0, 0, 0, 0.1)
+}
+
+.carousel-item img{
+  height: 38em;
+  opacity: .7;
+}
+
+/* About Blurb */
+#aboutBlurb h1 {
+  font-size: 2.4em;
+  text-align: center;
+  margin: 1em;
+}
+
+#aboutBlurb p{
+  font-size: 1.7em;
+  font-weight: 300;
+  width: 90%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+/* Information Section */
+#information .row{
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+}
+
+#information h1{
+  font-size: 2.5em;
+}
+
+#information h2{
+  font-size: 1.8em;
+  padding: .7em 0px;
+  font-style: italic;
+}
+#information p{
+  font-size: 1.3em;
+}
+
+#amenitiesInfo{
+  margin-bottom: 1em;
+}
+
+/* Gallery */
+#gallery h1{
+  font-size: 3em;
+  text-align: center;
+  margin: 1em;
+}
+
+.photoGallery{
+  display: flex !important;
+}
+
+#gallery img{
+  width: 44em;
+  height: 30em;
+  margin: 1.5em auto;
+}
+
+/* Footer */
+#myFooter {
+    background-color: #3a3f46;
+    color: white;
+}
+
+#myFooter .info{
+    text-align: justify;
+    color: #afb0b1;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter .logo{
+    margin-top: 10px;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#copyright{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 15px 0px;
+  margin-bottom: 0px;
+}
+
+/* Media Queries */
+@media (min-width: 800px){
+  #showCaseHeading h1{
+    position: absolute;
+    top: 0%;
+    padding-top: 22%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.5em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1)
+  }
+
+  .carousel-item img{
+    height: 32em;
+    opacity: .7;
+  }
+
+  /* About Blurb */
+  #aboutBlurb h1 {
+    font-size: 2em;
+    text-align: left;
+    margin: 1em;
+  }
+
+  #aboutBlurb p{
+    font-size: 1.4em;
+    font-weight: 300;
+    width: 90%;
+    text-align: left;
+    margin: 0px auto;
+  }
+
+  /* Main Carousel */
+  #mainCarousel h1{
+    text-align: center;
+  }
+
+  /* Gallery */
+  #gallery h1{
+    font-size: 2.7em;
+    text-align: center;
+    margin: 1em;
+  }
+}
+
+@media (min-width: 992px){
+  /* Nav Bar*/
+  nav{
+    height: 10vh;
+  }
+
+  #navLogo{
+    font-size: 2em;
+    font-weight: 700;
+    padding-right: 1em;
+  }
+
+  nav a{
+    font-size: 1.1em;
+    text-transform: uppercase;
+  }
+
+/* Carousel Showcase */
+  #showCaseHeading h1{
+    position: absolute;
+    top: 0;
+    padding-top: 25%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 4em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1)
+  }
+
+  .carousel-item img{
+    width: 100%;
+    height: auto;
+    max-height: 40em;
+  }
+
+  /* About Blurb */
+  #aboutBlurb h1 {
+    font-size: 2em;
+    text-align: left;
+  }
+
+  #aboutBlurb p{
+    font-size: 1.5em;
+    font-weight: 300;
+    width: 92%;
+    text-align: left;
+    margin: 0px auto;
+  }
+
+  /* Information Section */
+  /* Gallery */
+  #gallery h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 1em;
+  }
+
+  .photoGallery{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #gallery img{
+    width: 25em;
+    height: 20em;
+    margin: 2em auto;
+  }
+}
+
+@media (min-width: 1300px){
+  /* Carousel Showcase */
+    #showCaseHeading h1{
+      position: absolute;
+      top: 0;
+      padding-top: 18%;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 4.5em;
+      text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+                   0px 8px 13px rgba(0, 0, 0, 0.1),
+                   0px 18px 23px rgba(0, 0, 0, 0.1)
+    }
+
+    .carousel-item img{
+      width: 100%;
+      height: auto;
+      max-height: 40em;
+    }
+
+    /* About Blurb */
+    #aboutBlurb h1 {
+      font-size: 2em;
+      text-align: left;
+    }
+
+    #aboutBlurb p{
+      font-size: 1.5em;
+      font-weight: 300;
+      width: 92%;
+      text-align: left;
+      margin: 0px auto;
+    }
+}
+
+@media (min-width: 1700px){
+  /* Nav Bar*/
+  nav{
+    height: 10vh;
+  }
+
+  #navLogo{
+    font-size: 2.2em;
+    font-weight: 700;
+    padding-right: 1em;
+  }
+
+  nav a{
+    font-size: 1.3em;
+    text-transform: uppercase;
+  }
+
+/* Carousel Showcase */
+  #showCaseHeading h1{
+    position: absolute;
+    top: 0;
+    padding-top: 13%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 4em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1)
+  }
+
+  .carousel-item img{
+    width: 100%;
+    height: auto;
+    max-height: 35em;
+  }
+
+  /* About Blurb */
+  #aboutBlurb h1 {
+    font-size: 2em;
+    text-align: left;
+  }
+
+  #aboutBlurb p{
+    font-size: 1.4em;
+    font-weight: 300;
+    width: 95%;
+    text-align: left;
+    margin: 0px auto;
+  }
+
+  /* Gallery */
+  #gallery img{
+    width: 25em;
+    height: 20em;
+    margin: 1.5em auto;
+  }
+
+  /* Footer */
+  #myFooter h5 {
+      font-size: 1.2em;
+      color: white;
+      font-weight: bold;
+      margin-top: 30px;
+  }
+}
+
+@media (min-width: 2100px){
+  /* Carousel Showcase */
+    #showCaseHeading h1{
+      position: absolute;
+      top: 0;
+      padding-top: 10%;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 4.5em;
+      text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
+                   0px 8px 13px rgba(0, 0, 0, 0.1),
+                   0px 18px 23px rgba(0, 0, 0, 0.1)
+    }
+
+    .carousel-item img{
+      width: 100%;
+      height: auto;
+      max-height: 40em;
+    }
+
+    /* About Blurb */
+    #aboutBlurb p{
+      font-size: 1.6em;
+      font-weight: 300;
+      width: 95%;
+      text-align: left;
+      margin: 0px auto;
+    }
+
+    /* Gallery */
+    #gallery img{
+      width: 30em;
+      height: 25em;
+      margin: 1.5em auto;
+    }
+}

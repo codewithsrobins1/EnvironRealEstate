@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Environ Real Estate</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/homeQueries.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
   </head>
@@ -39,7 +39,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contactForm">Contact</a>
             </li>
           </ul>
         </div>
@@ -83,16 +83,18 @@
 <hr class="style-two">
 
 <!-- Showcase Carousel -->
-  <div id="mainCarousel">
-    <img id="imgHover" src="/img/modernPage2.jpg" alt="">
+  <div class="container">
+    <div id="mainCarousel">
+      <h1>Featured Home Styles</h1>
+      <img id="imgHover" src="/img/modernPage2.jpg" alt="">
+    </div>
   </div>
-
 
 <!-- Cards -->
 <div id="imgCards">
   <div class="container">
-    <div class="row">
-      <div class="card col-md-3" style="width: 18rem;">
+    <div class="row row1">
+      <div class="card col-md-6" style="width: 18rem;">
         <img onmouseover="mouseOver()" onmouseout="noMouseOver()" src="/img/modernPage2.jpg" id="imgModern" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Modern</h5>
@@ -101,141 +103,174 @@
         </div>
       </div>
 
-      <div class="card col-md-3" style="width: 18rem;">
-        <img onmouseover="mouseOver2()" onmouseout="noMouseOver()" src="/img/contemporary.jpg" id="imgContemp" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Contemporary</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="contemporary.html" target="_blank" class="btn btn-light">More Info</a>
+        <div class="card col-md-6" style="width: 18rem;">
+          <img onmouseover="mouseOver2()" onmouseout="noMouseOver()" src="/img/contemporary.jpg" id="imgContemp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Contemporary</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="contemporary.html" target="_blank" class="btn btn-light">More Info</a>
+          </div>
         </div>
       </div>
 
-      <div class="card col-md-3" style="width: 18rem;">
-        <img onmouseover="mouseOver3()" onmouseout="noMouseOver()" src="/img/medgal2.jpg" id="imgMed" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Mediterranean</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="med.html" target="_blank" class="btn btn-light">More Info</a>
-        </div>
-      </div>
+      <div class="row">
+          <div class="card col-md-6" style="width: 18rem;">
+          <img onmouseover="mouseOver3()" onmouseout="noMouseOver()" src="/img/medgal2.jpg" id="imgMed" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mediterranean</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="med.html" target="_blank" class="btn btn-light">More Info</a>
+            </div>
+          </div>
 
-      <div class="card col-md-3" style="width: 18rem;">
-        <img onmouseover="mouseOver4()" onmouseout="noMouseOver()" src="/img/luxuryApt.jpg" id="imgLux" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Luxury Apartment</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="luxury.html" target="_blank" class="btn btn-light">More Info</a>
-        </div>
+          <div class="card col-md-6" style="width: 18rem;">
+            <img onmouseover="mouseOver4()" onmouseout="noMouseOver()" src="/img/luxuryApt.jpg" id="imgLux" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Luxury Apartment</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="luxury.html" target="_blank" class="btn btn-light">More Info</a>
+            </div>
+          </div>
+        <div>
       </div>
     </div>
   </div>
 </div>
+
+<hr class="style-two">
 
 <!-- Meet the Team -->
 <div id="team">
   <div class="container">
     <h1>Meet our Team</h1>
+    <div class="row row1">
+        <div class="card text-center col-md-6" style="width: 18rem;">
+            <img class="card-img-top" src="/img/team1new.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Steve Jackson</h5>
+              <p class="jobTitle">Founder & Chief Executive Officer</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <div class="card text-center col-md-6" style="width: 18rem;">
+            <img class="card-img-top" src="/img/team2new.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Sarah Daniels</h5>
+              <p class="jobTitle">Chief Operating Officer</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="bottomRow" class="row">
+        <div class="card text-center col-md-6" style="width: 18rem;">
+            <img class="card-img-top" src="/img/team4.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">John Fisher</h5>
+              <p class="jobTitle">Chief Financial Officer</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<hr class="style-two">
+
+<!-- Contact Form -->
+<div id="contactForm" class="container">
+  <section class="mb-4">
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us!</p>
+
     <div class="row">
-      <div class="card text-center col-md-4" style="width: 18rem;">
-          <img class="card-img-top" src="/img/team1new.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Steve Jackson</h5>
-            <p class="jobTitle">Founder & Chief Executive Officer</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
 
-      <div class="card text-center col-md-4" style="width: 18rem;">
-          <img class="card-img-top" src="/img/team2new.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Sarah Daniels</h5>
-            <p class="jobTitle">Chief Operating Officer</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-      <div class="card text-center col-md-4" style="width: 18rem;">
-          <img class="card-img-top" src="/img/team4.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">John Fisher</h5>
-            <p class="jobTitle">Chief Financial Officer</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label class="formInput"for="name" class="">Your name:</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label class="formInput"for="email" class="">Your email:</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label class="formInput"for="subject" class="">Subject:</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label class="formInput"for="message">Your message:</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            <button id="contactBtn" class="btn btn-primary" type="submit">SEND</button>
+            </form>
+
+
         </div>
-      </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0 contactInfo">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>634 Rodeo Dr, Beverly Hills, CA 94126, USA</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>310-232-4348</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>info@environ.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
     </div>
-  </div>
+
+</section>
 </div>
-
-
-
-<!-- Contact Us  -->
-<div id="contact">
-  <div class="container">
-    <h1>Contact Us</h1>
-      <div class="contactContainer">
-        <div class="contactInfo">
-          <div id="address">
-            <h2>Address</h2>
-            <p><span><i class="fas fa-map-marker-alt fa-lg"></i></span>789 Grand St., Suite 100, Los Angeles, CA 90201</p>
-          </div>
-          <div id="phone">
-            <h2>Phone Number</h2>
-            <p><span><i class="fas fa-phone-square-alt fa-lg"></i></span>310-232-4348</p>
-          </div>
-          <div id="email">
-            <h2>Email Us</h2>
-            <p><span><i class="fas fa-envelope fa-lg"></i></span>contact@environ.com</p>
-          </div>
-
-          <button id="contactUsButton" type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
-            Message the Team
-          </button>
-
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Message the Team</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <form>
-                  <div class="form-group">
-                    <div class="col-8">
-                      <label for="name">Full Name:</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name:">
-                    </div>
-                  </div>
-                  <div class="col-8">
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address:</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email:">
-                    </div>
-                  </div>
-
-                  <div class="col-8">
-                    <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                  </div>
-                </form>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary">Send</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
 
 <!-- Map -->
 <div id="map">
@@ -265,9 +300,9 @@
                 <div class="col-sm-3">
                     <h5>Contact</h5>
                     <ul>
-                        <li><a href="#">789 Grand St., Suite 100, Los Angeles, CA 90201</a></li>
+                        <li><a href="#">634 Rodeo Dr, Beverly Hills, CA 94126, USA</a></li>
                         <li><a href="#">310-232-4348</a></li>
-                        <li><a href="#">contact@environ.com</a></li>
+                        <li><a href="#">info@environ.com</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3 info">
@@ -277,7 +312,7 @@
             </div>
         </div>
 
-        <p id="copyright">&copy; 2019 Environ Real Estate | Created by Sean Robinson</p>
+        <p id="copyright">&copy; 2020 Environ Real Estate | Created by Sean Robinson</p>
   </footer>
 
 
