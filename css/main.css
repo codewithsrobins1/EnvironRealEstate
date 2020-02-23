@@ -193,7 +193,7 @@ nav a{
 }
 
 /* Media Queries */
-@media (min-width: 800px){
+@media screen and (min-width: 800px){
   #showCaseHeading h1{
     position: absolute;
     top: 0%;
@@ -268,7 +268,7 @@ nav a{
   }
 }
 
-@media (min-width: 992px){
+@media screen and (min-width: 992px){
   /* Nav Bar*/
   nav{
     height: 10vh;
@@ -331,20 +331,20 @@ nav a{
   /* Contact Form */
 }
 
-@media (min-width: 1700px){
+@media screen and (min-width: 1700px){
   /* Nav Bar*/
   nav{
-    height: 10vh;
+    height: 8vh;
   }
 
   #navLogo{
-    font-size: 2.2em;
+    font-size: 2em;
     font-weight: 700;
     padding-right: 1em;
   }
 
   nav a{
-    font-size: 1.3em;
+    font-size: 1.1em;
     text-transform: uppercase;
   }
 
@@ -352,7 +352,7 @@ nav a{
   #showCaseHeading h1{
     position: absolute;
     top: 0;
-    padding-top: 18%;
+    padding-top: 13%;
     width: 100%;
     text-align: center;
     color: #fff;
@@ -366,7 +366,7 @@ nav a{
   .carousel-item img{
     width: 100%;
     height: auto;
-    max-height: 45em;
+    max-height: 35em;
   }
 
   /* About Blurb */
@@ -378,22 +378,35 @@ nav a{
     margin: 0px auto;
     padding: 5%;
   }
+
+  /* Team Cards */
+  #team img{
+    width: 15em;
+    height: 17em;
+    margin: 0 auto;
+  }
 }
 
-@media (min-width: 2100px){
+@media screen and (min-width: 2100px){
   /* Carousel Showcase */
     #showCaseHeading h1{
       position: absolute;
       top: 0;
-      padding-top: 12%;
+      padding-top: 14%;
       width: 100%;
       text-align: center;
       color: #fff;
       font-weight: 700;
-      font-size: 4em;
+      font-size: 4.5em;
       text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2),
                    0px 8px 13px rgba(0, 0, 0, 0.1),
                    0px 18px 23px rgba(0, 0, 0, 0.1)
+    }
+
+    .carousel-item img{
+      width: 100%;
+      height: auto;
+      max-height: 50em;
     }
 
     /* About Blurb */
