@@ -153,7 +153,7 @@ nav a{
 }
 
 /* Media Queries */
-@media (min-width: 800px){
+@media screen and (min-width: 800px){
   #showCaseHeading h1{
     position: absolute;
     top: 0%;
@@ -201,7 +201,7 @@ nav a{
   }
 }
 
-@media (min-width: 992px){
+@media screen and (min-width: 992px){
   /* Nav Bar*/
   nav{
     height: 10vh;
@@ -273,7 +273,7 @@ nav a{
   }
 }
 
-@media (min-width: 1300px){
+@media screen and (min-width: 1300px){
   /* Carousel Showcase */
     #showCaseHeading h1{
       position: absolute;
@@ -310,7 +310,7 @@ nav a{
     }
 }
 
-@media (min-width: 1700px){
+@media screen and (min-width: 1700px){
   /* Nav Bar*/
   nav{
     height: 8vh;
@@ -378,7 +378,7 @@ nav a{
   }
 }
 
-@media (min-width: 2100px){
+@media screen and (min-width: 2100px){
   /* Carousel Showcase */
     #showCaseHeading h1{
       position: absolute;
