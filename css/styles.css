@@ -313,17 +313,17 @@ nav a{
 @media (min-width: 1700px){
   /* Nav Bar*/
   nav{
-    height: 10vh;
+    height: 8vh;
   }
 
   #navLogo{
-    font-size: 2.2em;
+    font-size: 2em;
     font-weight: 700;
     padding-right: 1em;
   }
 
   nav a{
-    font-size: 1.3em;
+    font-size: 1.1em;
     text-transform: uppercase;
   }
 
