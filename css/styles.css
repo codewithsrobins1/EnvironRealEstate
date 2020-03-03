@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Cairo', sans-serif !important;
+}
+
 /* HR Section Breaks */
 .style-two {
     border: 0;
@@ -76,12 +80,12 @@ nav a{
 }
 
 #information h2{
-  font-size: 1.8em;
+  font-size: 1.5em;
   padding: .7em 0px;
   font-style: italic;
 }
 #information p{
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 #amenitiesInfo{
@@ -331,7 +335,7 @@ nav a{
   #showCaseHeading h1{
     position: absolute;
     top: 0;
-    padding-top: 13%;
+    padding-top: 10%;
     width: 100%;
     text-align: center;
     color: #fff;
@@ -345,17 +349,17 @@ nav a{
   .carousel-item img{
     width: 100%;
     height: auto;
-    max-height: 35em;
+    max-height: 30em;
   }
 
   /* About Blurb */
   #aboutBlurb h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: left;
   }
 
   #aboutBlurb p{
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: 300;
     width: 95%;
     text-align: left;
