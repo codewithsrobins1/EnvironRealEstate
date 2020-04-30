@@ -6,7 +6,7 @@ Fictional real estate company website made using Bootstrap. Website highlights m
 
 https://codewithsrobins1.github.io/EnvironRealEstate/
 
-## Objective
+## Objectives
 
 * Practice using Bootstrap library
 * Build a fictional real estate firm's website that showcases their different listing house styles
